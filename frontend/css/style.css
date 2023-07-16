@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    max-width: 400px;
+}
+
+form h2 {
+    text-align: center;
+}
+
+form div {
+    margin-bottom: 10px;
+}
+
+form label {
+    display: inline-block;
+    width: 100px;
+}
+
+form input[type="email"],
+form input[type="password"] {
+    width: 200px;
+}
+
+form button {
+    margin-left: 100px;
+}
+
+#message {
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.popup {
+    position: fixed;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+  
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #aaa;
+  }
